@@ -21,7 +21,7 @@ copy paste the whole string with altered values [] to match your setup.</Overvie
   <Category>Cloud: Other: Status:Beta</Category>
   <WebUI/>
   <TemplateURL>https://github.com/Jcloud67/Docker-Templates</TemplateURL>
-  <Icon>https://github.com/MrChunky/Storj-Unraid-CA-Template/blob/master/storj-logo-png-transparent.png?raw=true</Icon>
+  <Icon>https://github.com/MrChunky/Unraid-Docker-Templates/blob/master/logos/storj-logo-png-transparent.png?raw=true</Icon>
   <ExtraParams>--mount type=bind,source="/mnt/user/appdata/[your storage identity location]/storj/identity/storagenode/",destination=/app/identity  --mount type=bind,source="/mnt/user/[your storj share]/",destination=/app/config</ExtraParams>
   <PostArgs/>
   <CPUset/>
