@@ -19,7 +19,7 @@ Once the identity is generated, two path need to be passed tot he docker. Curren
 &#xD;
 copy paste the whole string with altered values  to match your setup.</Overview>
   <Category>Cloud: Other: </Category>
-  <WebUI>http://localhost:14002/<WebUI/>
+  <WebUI>http://[IP]:[14002]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dalekseevs/Unraid-Docker-Templates/master/stroragenode-v3.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/dalekseevs/Unraid-Docker-Templates/master/logos/storj-logo-png-transparent.png</Icon>
   <ExtraParams>--mount type=bind,source="/mnt/user/[your identity directory]/identity/storagenode/",destination=/app/identity  --mount type=bind,source="/mnt/user/[your storage directory]/",destination=/app/config</ExtraParams>
