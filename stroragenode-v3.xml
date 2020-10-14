@@ -9,13 +9,14 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://documentation.storj.io/</Project>
-  <Overview>This is Storj Lab's V3 node client. To participate you must first have to have an authorization token, to join waitlist go to: https://storj.io/sign-up-farmer&#xD;
+  <Overview>This is Storj Lab's V3 node client. To participate you must first have to have an authorization token, to join waitlist go to: [b]https://storj.io/sign-up-farmer[/b]&#xD;
 &#xD;
-This template is for running the Docker application only, please follow Storj Lab directions in the Auth Token email link to setup your Node Identity files  -  this is in https://documentation.storj.io/dependencies/identity&#xD;
+This template is for running the Docker application only, please follow Storj Lab directions in the Auth Token email link to setup your Node Identity files  -  this is in [b]https://documentation.storj.io/dependencies/identity[/b]&#xD;
 &#xD;
-Once the identity is generated, two path need to be passed tot he docker. Currently Storj requires that the path are mounted using --mount rather than -v. Please add the path for the storage and identity folders to the extra parameters in the following format (extra parameters can be accessed through the advanced view toggle):&#xD;
+[br][br][b][u][span style='color: #E80000;']!!! IMPORTANT !!![/span][/u][/b][br]&#xD;
+Two path need to be passed to the docker. Currently Storj requires that the path are mounted using --mount rather than -v. Please add the path for the storage and identity folders to the extra parameters in the following format (extra parameters can be accessed through the advanced view toggle):&#xD;
 &#xD;
---mount type=bind,source="/mnt/user/appdata//storj/identity/storagenode/",destination=/app/identity  --mount type=bind,source="/mnt/user//",destination=/app/config&#xD;
+[b]--mount type=bind,source="/mnt/user/appdata//storj/identity/storagenode/",destination=/app/identity  --mount type=bind,source="/mnt/user//",destination=/app/config[/b]&#xD;
 &#xD;
 copy paste the whole string with altered values  to match your setup.</Overview>
   <Category>Cloud: Other: </Category>
