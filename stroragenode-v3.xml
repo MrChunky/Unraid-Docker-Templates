@@ -9,7 +9,7 @@
   <Privileged>false</Privileged>
   <Support/>
   <Project>https://documentation.storj.io/</Project>
-  <Overview>This is Storj Lab's V3 node client. To participate you must first have to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]&#xD;
+  <Overview>This is official Storj V3 node client. To participate you must first have to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]&#xD;
 &#xD;
 This template is for running the Docker application only, please follow Storj Lab directions to generate your Node Identity files  -  this is in [b]https://documentation.storj.io/dependencies/identity[/b]&#xD;
 &#xD;
@@ -22,7 +22,7 @@ During the first run the [b]-e SETUP=true[/b] argument needs to be added to this
 &#xD;
 For additional information please visit the support thread: [b]https://forums.unraid.net/topic/88430-support-storj-v3-docker/[/b]&#xD;
 </Overview>
-  <Category>Cloud: Other: Status:Stable</Category>
+  <Category>Cloud: Crypto: Other: Status:Stable</Category>
   <WebUI>http://[IP]:[PORT:14002]/</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/dalekseevs/Unraid-Docker-Templates/master/stroragenode-v3.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/dalekseevs/Unraid-Docker-Templates/master/logos/storj-logo-png-transparent.png</Icon>
@@ -32,7 +32,7 @@ For additional information please visit the support thread: [b]https://forums.un
   <DateInstalled>1611426432</DateInstalled>
   <DonateText/>
   <DonateLink/>
-  <Description>This is Storj Lab's V3 node client. To participate you must first have to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]&#xD;
+  <Description>This is the official Storj V3 node client. To participate you must first have to have an authorization token, to get the Authentication Token go to: [b]https://storj.io/sign-up-farmer[/b]&#xD;
 &#xD;
 This template is for running the Docker application only, please follow Storj Lab directions to generate your Node Identity files  -  this is in [b]https://documentation.storj.io/dependencies/identity[/b]&#xD;
 &#xD;
