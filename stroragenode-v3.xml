@@ -51,7 +51,7 @@ For additional information please visit the support thread: [b]https://forums.un
       <Port>
         <HostPort>28967</HostPort>
         <ContainerPort>28967</ContainerPort>
-        <Protocol>tcp</Protocol>
+        <Protocol>udp</Protocol>
       </Port>
       <Port>
         <HostPort>14002</HostPort>
