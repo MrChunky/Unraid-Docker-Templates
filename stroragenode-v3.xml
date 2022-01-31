@@ -54,6 +54,11 @@ For additional information please visit the support thread: [b]https://forums.un
         <Protocol>udp</Protocol>
       </Port>
       <Port>
+        <HostPort>28967</HostPort>
+        <ContainerPort>28967</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+      <Port>
         <HostPort>14002</HostPort>
         <ContainerPort>14002</ContainerPort>
         <Protocol>tcp</Protocol>
@@ -89,6 +94,7 @@ For additional information please visit the support thread: [b]https://forums.un
     </Variable>
   </Environment>
   <Labels/>
+  <Config Name="TCP Port" Target="28967" Default="28967" Mode="udp" Description="QUIC Port" Type="Port" Display="always" Required="true" Mask="false">28967</Config>
   <Config Name="TCP Port" Target="28967" Default="28967" Mode="tcp" Description="Default Storj V3 node port." Type="Port" Display="always" Required="true" Mask="false">28967</Config>
   <Config Name="Wallet Address" Target="WALLET" Default="" Mode="" Description="Your Payout address here." Type="Variable" Display="always" Required="true" Mask="false"/>
   <Config Name="Email address" Target="EMAIL" Default="" Mode="" Description="Email address used to sign Storj V3 node. (recommended)" Type="Variable" Display="always" Required="true" Mask="false"/>
